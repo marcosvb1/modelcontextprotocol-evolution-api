@@ -1,0 +1,20 @@
+{
+  "name": "@modelcontextprotocol/server-evolution-api",
+  "version": "0.1.0",
+  "description": "Evolution API server for Model Context Protocol",
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "prepublishOnly": "npm run build"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^0.1.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "@types/node": "^20.10.0"
+  }
+}
